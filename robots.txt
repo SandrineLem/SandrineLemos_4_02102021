@@ -4,4 +4,8 @@
 {\*\expandedcolortbl;;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
 }
+<<<<<<< HEAD
 User-agent: *
+=======
+User-agent: *
+>>>>>>> ea7441f176af0b6d22102f1d114990975f34fe66
