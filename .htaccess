@@ -15,6 +15,7 @@ Header unset Cache-Control
 </FilesMatch>
 </IfModule>
 # END Cache-Control Headers
+
 # BEGIN Expires Headers
 <IfModule mod_expires.c>
 ExpiresActive On
