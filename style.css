@@ -827,7 +827,6 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpeg");
-    width: 100%;
 }
 
 .bg-presentation {
@@ -910,10 +909,7 @@ h4 {
     h5,
     h6,
     p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
+    
     .b-parallax {
         background-attachment: scroll;
     }
