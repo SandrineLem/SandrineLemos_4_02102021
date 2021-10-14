@@ -831,11 +831,11 @@ h4 {
 
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.webp"),url("img/la-chouette-agence-banniere.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-2.webp");
+    background-image: url("img/image-de-presentation-2.webp"),url("img/image-de-presentation-2.jpg");
 }
 
 @media (max-width: 1024px) {
