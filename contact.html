@@ -117,21 +117,17 @@
 					</div>
 					<div class="form-group">
 						<label for="email">Adresse email</label>
-						<input type="email" class="form-control" required placeholder="Renseignez votre adresse email" />
+						<input type="email" id="email" name="identification" class="form-control" required placeholder="Renseignez votre adresse email" />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input type="text" class="form-control"  required id="input_504" placeholder="Internet, Reseaux sociaux, Bouche à oreille, Article, Flayers?"/>
+						<label for="description">Comment nous avez-vous connu ?</label>
+						<input type="text" id="description" name="decouverte" class="form-control"  required id="input_504" placeholder="Internet, Reseaux sociaux, Bouche à oreille, Article, Flayers?"/>
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
 						<textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Exemple: Quel domaine d'activité? Pourquoi? Pour qui? Où? Quand? Comment? Vos attentes? "></textarea>
 					</div> 
-					<input type="submit" name="envoyer" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"></input>
+					<input type="submit" name="envoyer" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">Envoyer</input>
 				</form>
 			</div>
 			<div class="col-sm-6">
