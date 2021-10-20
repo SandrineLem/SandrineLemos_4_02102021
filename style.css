@@ -20,6 +20,11 @@ a:hover {
     cursor: pointer;
 }
 
+a,
+button:focus{
+    background-color: #b4b0a9;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
